@@ -14,8 +14,8 @@ app.get("/", (req, res) => {
   res.json({ message: "Oi Express!" });
 });
 
-const DB_USER = "crisoenning";
-const DB_PASSWORD = encodeURIComponent("BBvPgMgQUANu1zTi");
+const DB_USER = 
+const DB_PASSWORD =
 
 mongoose
   .connect(
